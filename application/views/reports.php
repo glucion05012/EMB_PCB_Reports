@@ -26,7 +26,8 @@
                     <td><?php echo $rg['contact_details']; ?></td>
                     <td><?php echo $rg['pco_email']; ?></td>
                     <td>
-                        <a href="inventory/<?php echo $rg['pcb_inventoryID'] ?>"><i class="fa fa-edit" style="font-size:24px"></i></a>
+                        <a href="inventory/<?php echo $rg['pcb_inventoryID'] ?>" data-toggle="tooltip" title="Inventory"><i class="fa fa-list" style="font-size:24px"></i></a> | 
+                        <a href="plan/<?php echo $rg['pcb_inventoryID'] ?>" data-toggle="tooltip" title="PCB Management Plan"><i class="fa fa-tasks" style="font-size:24px"></i></a>
                     </td>
                 </tr>   
             <?php endforeach; ?>
