@@ -3,7 +3,7 @@
         <button id="btnExport" onclick="fnExcelReport();" class='btn btn-success'>Export</button>
     </div>
 
-    <table id="myTable" class="row-border" style="width:100%">
+    <table id="myTable" class="row-border table-responsive" style="width:100%">
     <div class="col-sm-4" >
         <thead>
             <tr>
